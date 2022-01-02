@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const ButtonStyles = styled.button`
-
+  max-width: fit-content;
+  
   &.listen-button {
     background-color: var(--purple);
     padding: 0.5rem 2rem;
@@ -28,5 +29,6 @@ export const ButtonStyles = styled.button`
     padding: 0;
     margin: 0;
     border: none;
+    margin: 0.5rem;
   }
 `;

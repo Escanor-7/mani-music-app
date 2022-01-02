@@ -44,4 +44,9 @@ export const IconStyles = styled.img`
       height: 3rem;
     }
   }
+
+  &.custom-arrows {
+    width: 2rem;
+    height: 2rem;
+  }
 `;

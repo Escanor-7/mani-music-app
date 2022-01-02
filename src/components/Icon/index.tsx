@@ -1,6 +1,6 @@
 import { IconStyles } from "./Icon.styles";
 
-type IconProps = {
+interface IconProps {
   name: string;
   variant?: string;
   width?: string;
